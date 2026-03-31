@@ -1,1 +1,95 @@
-This is the project report.
+
+Name: Mohit Sharma
+Registration Number: 25BAS10092
+Course: Fundamentals of AI and ML
+VIT Bhopal University
+Date: 31 March 2026
+
+Procrastination Risk Detector
+A Simple Tool to Analyze Study Habits
+
+
+1. Introduction
+
+Procrastination is something almost every student faces. We make plans to study but then end up scrolling on our phones or watching YouTube instead. I personally have faced this many times, and I thought it would be interesting to make a simple program that can help us see if we are actually following our study plans or not.
+
+This project is a basic program called Procrastination Risk Detector. The idea is simple – you enter your planned study hours, what you actually studied, and how many distractions you had, and the program tells you whether you’re at low, moderate, or high risk of procrastinating.
+
+2. Problem Statement
+
+Students often create study schedules but don’t follow them. Because of this, they end up wasting time and not completing their work on time. One of the main reasons is procrastination, which happens when we get distracted easily or just delay our tasks.
+
+There should be a way to help students realize if they are procrastinating, so they can try to fix it. This program is a small step toward that.
+
+3. Objective
+
+The main goals of this project are:
+
+- Build a simple program that checks study habits.
+- Compare planned study hours with actual hours.
+- Count how many distractions happened during study.
+- Decide the level of procrastination risk.
+- Give the user a clear output and a little tip to improve.
+
+4. Tools Used
+
+For this project, I used:
+
+- Python – because it’s easy to learn and perfect for small programs like this.
+- GitHub – to store the code and keep track of changes.
+- VS Code – as the code editor to write and test the program.
+
+5. How the Program Works
+
+The program takes three inputs from the user:
+
+1. Planned study hours
+2. Actual study hours
+3. Number of distractions
+
+Then it uses some if-elif-else conditions to decide the risk level:
+
+- If actual hours are equal to or more than planned and distractions are 1 or less → Low Risk
+- Else if actual hours are at least half of planned → Moderate Risk
+- Otherwise → High Risk
+
+Finally, it prints a small report showing the inputs and the result, plus a motivational tip.
+
+6. Features
+
+- Easy to use – just type in your numbers.
+- Compares planned and actual hours directly.
+- Takes distractions into account.
+- Gives a clear risk level.
+- Shows a friendly tip at the end.
+
+7. Challenges I Faced
+
+Honestly, I faced a few small issues while making this:
+
+- I kept forgetting to convert the input to float or int, so the program crashed a couple of times.
+- Writing the conditions correctly took a bit of trial and error – I had to test different combinations.
+- I also struggled a bit with organizing the project files on GitHub, but after watching a tutorial I figured it out.
+
+8. What I Learned
+
+From this project, I learned:
+
+- How to take user input in Python and use it in conditions.
+- How if-elif-else statements actually work.
+- The importance of testing code step by step.
+- How to create a simple project structure and use GitHub.
+- That even a small program can be used to analyze real-life behavior like study habits.
+
+9. Conclusion
+
+The Procrastination Risk Detector is a simple but useful program. It helps students check if they’re actually studying as much as they planned. Even though it’s not very advanced, it shows how basic programming can be applied to everyday problems. I’m happy with how it turned out, and it made me realize how important it is to actually track my own study time.
+
+10. Future Improvements
+
+If I work on this project again, I’d like to add:
+
+- The ability to save data for multiple days so you can see your progress over time.
+- A graph showing study hours vs. distractions.
+- A proper graphical interface instead of just the terminal.
+- Maybe a weekly summary to give better insights.
